@@ -133,6 +133,8 @@ body{
     font-family: var(--fontMuseoModerno);
 }
 .mainContainer .heroSection .info .paragraph{
+    font-size: 24px;
+    color:#575757;
     font-family: var(--fontInter);
 }
 .mainContainer .heroSection .info .ctaMain{
