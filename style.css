@@ -1,19 +1,14 @@
-@font-face {
-    font-family: 'Eastman Roman Alternate Bold';
-    src: url('https://github.com/DIGORACCOON4279/Eastman/raw/main/EastmanAlternate-Bold.woff2') format('woff2');
-    font-weight: bold;
-    font-style: normal;
-}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 :root{
-    --fontEastman: 'Eastman Roman Alternate Bold', sans-serif;
+    --fontMuseoModerno: 'Museomoderno', sans-serif;
     --fontInter: 'Inter', sans-serif;
 }
 .heroSection{
-    font-family: var(--fontEastman);
+    font-family: var(--fontMuseoModerno);
 }
 
