@@ -294,6 +294,11 @@ body{
 }
 .mainContainer .services .images .servicesItem{
     border-radius: 10px;
+    cursor: pointer;
+    transition:0.3s ease-in-out;
+}
+.mainContainer .services .images .servicesItem:hover{
+    box-shadow: 1px 1px 8px 2px #afafaf;
 }
 
 /* Testimoinies */
