@@ -200,3 +200,26 @@ body{
 .mainContainer .heroSection .laptop .laptopHeroSection{
     width:auto;
 }
+
+/* TeamWork */
+
+.mainContainer .teamWork{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 100px 0px;
+    position: relative;
+    transform:translateX(1.5%);
+}
+.mainContainer .teamWork div{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
