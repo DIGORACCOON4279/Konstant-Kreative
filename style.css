@@ -408,12 +408,10 @@ body{
     font-size: 16px;
     font-weight: 500;
 }
-
-
 .mainContainer .testimonies .arrows{
     display: flex;
     flex-direction: row;
-    gap:25px;
+    gap:20px;
 }
 .mainContainer .testimonies .arrows .arrow{
     width:3%;
@@ -484,7 +482,6 @@ body{
     border: 2px solid #000000;
 }
 
-
 /* Footer */
 
 .footer{
@@ -527,7 +524,57 @@ body{
     text-decoration: underline;
     color:#266dd3;
 }
-
+.footer .footerTop .newsletter{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.footer .footerTop .newsletter .formInscription{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.footer .footerTop .newsletter .formInscription .paragraph{
+    text-decoration: underline;
+    color:#000000;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.footer .footerTop .newsletter .formInscription .inscription label,
+.footer .footerTop .newsletter .formInscription .inscription input{
+    width:100%;
+}
+.footer .footerTop .newsletter .formInscription .inscription input{
+    padding: 10px;
+    color:#c9c9c9;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: var(--fontInter);
+    border: 2px solid #c9c9c9;
+    border-radius: 10px;
+    transition:0.3s ease-in-out;
+}
+.footer .footerTop .newsletter .formInscription .inscription input:hover{
+    border: 2px solid #266dd3;
+}
+.footer .footerTop .newsletter .formInscription .action{
+    width:100%;
+    padding: 10px;
+    color:#ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #266dd3;
+    border: 2px solid #266dd3;
+    border-radius: 10px;
+    transition:0.3s ease-in-out;
+}
+.footer .footerTop .newsletter .formInscription .action:hover{
+    color:#000000;
+    background-color: transparent;
+    border: 2px solid #000000;
+}
 .footer .footerBottom{
     width: 100%;
     height:auto;
@@ -591,3 +638,4 @@ body{
 .footer .footerBottom .socialMediaIcons .left a:hover{
     text-decoration: underline;
 }
+
