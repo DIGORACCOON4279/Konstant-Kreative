@@ -164,7 +164,7 @@ body{
     "pic4 pic5 pic6"
     "pic7 pic8 pic9";
     gap:10px;
-    z-index: 0;
+    z-index: -1;
     opacity:0.3;
 }
 .mainContainer .heroSection .shadowArticles:nth-child(1){
