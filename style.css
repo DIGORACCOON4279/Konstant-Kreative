@@ -338,17 +338,14 @@ body{
 }
 
 .mainContainer .testimonies .cards{
-    width:max-content;
     height:auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    gap:100px ;
+    gap:20px ;
     transition: transform 0.5s ease;
-    padding:0px 100px;
 }
 .mainContainer .testimonies .cards .card{
-    width:40vw;
+    width:auto;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
