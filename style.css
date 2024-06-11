@@ -72,13 +72,13 @@ body{
 }
 .header .menu .navbar ul li .navbarServices{
     display: none;
-    width:100vw;
+    width:100%;
     height:auto;
     position:absolute;
     top:100%;
     left: 0;
-    margin: 0px;
-    padding:50px 50px;
+    margin: auto;
+    padding:50px 0px;
     overflow: hidden;
     background-color: #ffffff;
 }
@@ -90,7 +90,8 @@ body{
     display: block;
 }
 .header .menu .navbar ul li .navbarServices .services{
-    width:100%;
+    width:97%;
+    margin: auto;
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
