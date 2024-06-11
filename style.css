@@ -73,12 +73,12 @@ body{
 }
 .header .menu .navbar ul li .navbarServices{
     display: none;
-    width:100%;
+    width:100vw;
     height:auto;
     position:absolute;
     top:100%;
     left: 0;
-    margin: auto;
+    margin: 0px;
     padding:50px 0px;
     overflow: hidden;
     background-color: #ffffff;
@@ -88,10 +88,11 @@ body{
     transform:rotateX(180deg);
 }
 .header .menu .navbar ul li:hover .navbarServices{
-    display: block;
+    display: flex;
 }
 .header .menu .navbar ul li .navbarServices .services{
     width:97%;
+    max-width: 1350px;
     margin: auto;
     display:grid;
     grid-template-columns: repeat(3, 1fr);
