@@ -31,6 +31,7 @@ body{
 }
 .header .menu{
     width:97%;
+    max-width: 1350px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -159,6 +160,7 @@ body{
 }
 .mainContainer .heroSection{
     width:100%;
+    max-width: 1350px;
     height:auto;
     display: flex;
     flex-direction: row;
@@ -259,7 +261,9 @@ body{
 
 .mainContainer .teamWork{
     width:100%;
+    max-width: 1350px;
     height:auto;
+    margin:auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -271,7 +275,6 @@ body{
 }
 .mainContainer .teamWork .team{
     border-radius: 20px;
-    /* filter:grayscale(40%); */
 }
 .mainContainer .teamWork div{
     width:52%;
@@ -309,6 +312,8 @@ body{
 
 .mainContainer .services{
     width:100%;
+    max-width: 1350px;
+    margin:auto;
     height:auto;
     display: flex;
     flex-direction: row;
@@ -357,6 +362,7 @@ body{
 
 .mainContainer .testimonies{
     width:97%;
+    max-width: 1350px;
     height:auto;
     display: flex;
     flex-direction: column;
@@ -489,6 +495,7 @@ body{
 
 .mainContainer .calender{
     width:97%;
+    max-width: 1350px;
     height:auto;
     display: flex;
     flex-direction: column;
@@ -545,6 +552,7 @@ body{
 
 .footer{
     width:97%;
+    max-width: 1350px;
     height:auto;
     display: flex;
     flex-direction: column;
@@ -646,6 +654,7 @@ body{
     background-position:100% ;
     background-repeat: no-repeat;
     background-size:cover;
+    object-fit: cover;
     padding: 15px;
     border-radius: 20px;
 }
