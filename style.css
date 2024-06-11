@@ -25,7 +25,7 @@ body{
     top:0;
     left:0;
     right:0;
-    padding:15px 0px 15px 0px;
+    padding:0px;
     border-bottom: 1px solid #ffffff;
     z-index: 99;
 }
@@ -54,9 +54,60 @@ body{
     font-size: 1rem;
     font-weight: 500;
     padding: 20px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:5px;
     transition: 0.3s ease-in-out;
 }
 .header .menu .navbar ul li .item:hover{
+    color:#266dd3;
+}
+.header .menu .navbar ul li .item .arrowDown{
+    width:16px;
+    align-self:center;
+    transform:rotateX(0deg);
+    transition: transform 0.3s ease-in-out;
+}
+.header .menu .navbar ul li .navbarServices{
+    display: none;
+    width:100vw;
+    height:auto;
+    position:absolute;
+    top:100%;
+    left: 0;
+    margin: 0px;
+    padding:50px 50px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.header .menu .navbar ul li:hover .item .arrowDown{
+    transform:rotateX(180deg);
+}
+.header .menu .navbar ul li:hover .navbarServices{
+    display: block;
+}
+.header .menu .navbar ul li .navbarServices .services{
+    width:100%;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+.header .menu .navbar ul li .navbarServices .service li{
+    list-style-type: none;
+}
+.header .menu .navbar ul li .navbarServices .services li .itemServices{
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: var(--fontInter);
+    transition:0.3s ease-in-out;
+}
+.header .menu .navbar ul li .navbarServices .services li .itemServices:hover{
+    text-decoration:underline;
     color:#266dd3;
 }
 .header .menu .cta{
