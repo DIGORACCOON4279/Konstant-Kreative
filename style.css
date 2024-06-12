@@ -73,30 +73,37 @@ body{
 }
 .header .menu .navbar ul li .navbarServices{
     display: none;
-    width:100vw;
-    height:auto;
+    width:100%;
+    height:100vh;
     position:absolute;
     top:100%;
     left: 0;
+    right: 0;
     margin: 0px;
-    padding:50px 0px;
     overflow: hidden;
+}
+.menuTotal{
+    width:100%;
+    height:auto;
     background-color: #ffffff;
 }
-
 .header .menu .navbar ul li:hover .item .arrowDown{
     transform:rotateX(180deg);
 }
 .header .menu .navbar ul li:hover .navbarServices{
     display: flex;
+    flex-direction: column;
 }
 .header .menu .navbar ul li .navbarServices .services{
-    width:97%;
+    width:80%;
+    height: auto;
     max-width: 1350px;
-    margin: auto;
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
+    margin:auto;
+    padding: 70px 0px;
+    background-color: #ffffff;
 }
 .header .menu .navbar ul li .navbarServices .service li{
     list-style-type: none;
@@ -113,6 +120,14 @@ body{
     text-decoration:underline;
     color:#266dd3;
 }
+.header .menu .navbar ul li .navbarServices .emptyScreen{
+    width: 100%;
+    height: 100%;
+    background-color: #00000083;
+}
+
+
+
 .header .menu .cta{
     display: flex;
     flex-direction: row;
