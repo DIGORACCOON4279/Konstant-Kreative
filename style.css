@@ -96,11 +96,12 @@ body{
 }
 .header .menu .navbar ul li .navbarServices .services{
     width:80%;
-    height: auto;
+    height: fit-content;
     max-width: 1350px;
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
+    gap:10px;
     margin:auto;
     padding: 70px 0px;
     background-color: #ffffff;
@@ -115,11 +116,13 @@ body{
     color:rgb(0, 0, 0);
     font-size: 1rem;
     font-weight: 500;
+    padding:15px 0px 10px 20px;
     font-family: var(--fontInter);
     transition:0.3s ease-in-out;
 }
 .header .menu .navbar ul li .navbarServices .services li .itemServices:hover{
-    text-decoration:underline;
+    background-color: #f6f6f6;
+    border-radius: 10px;
     color:#266dd3;
 }
 .header .menu .navbar ul li .navbarServices .emptyScreen{
