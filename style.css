@@ -116,7 +116,7 @@ body{
     color:rgb(0, 0, 0);
     font-size: 1rem;
     font-weight: 500;
-    padding:15px 0px 10px 20px;
+    padding:10px 0px 10px 20px;
     font-family: var(--fontInter);
     transition:0.3s ease-in-out;
 }
